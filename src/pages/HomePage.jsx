@@ -17,7 +17,8 @@ export default function HomePage() {
                 </div>
             </section>    
             
-            <section className="bg-[#e6e6e6] text-[#3b2a2a]">
+            <section className="flex flex-col
+            bg-[#e6e6e6] text-[#3b2a2a] px-4 py-8 gap-8">
                 <PortfolioSection />
             </section>
 
