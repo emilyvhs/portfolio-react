@@ -1,7 +1,9 @@
 export default function ButtonLink({link, linkText}) {
 
     return (
-        <a className="bg-[#3b2a2a] text-[#e6e6e6] text-center
+        <a className="font-tomorrow bg-[#3b2a2a] 
+        text-[#e6e6e6] text-center
+        py-2
         hover:bg-[#2f4f4f]"
         href={link}>{linkText}</a>
     )
