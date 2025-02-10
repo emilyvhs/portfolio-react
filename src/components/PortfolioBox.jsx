@@ -9,7 +9,8 @@ export default function PortfolioBox({title, image, description, alt, link}){
         <div className="
         flex flex-col
         p-4 gap-4
-        shadow-[5px_5px_5px_5px_#a67c7c]     
+        shadow-[5px_5px_5px_5px_#a67c7c]
+        hover:shadow-[7px_7px_7px_7px_#6B4F4F]     
         ">
             <H3 text={title} />
             <Image image={image} alt={alt} />

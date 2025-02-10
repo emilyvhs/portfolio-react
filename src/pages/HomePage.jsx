@@ -18,7 +18,7 @@ export default function HomePage() {
             </section>    
             
             <section className="flex flex-col
-            bg-[#e6e6e6] text-[#3b2a2a] px-4 py-8 gap-8">
+            bg-[#e6e6e6] text-[#3b2a2a] px-6 py-8 gap-8">
                 <PortfolioSection />
             </section>
 
