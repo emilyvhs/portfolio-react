@@ -1,7 +1,7 @@
 export default function TextBox({text}) {
 
     return (
-        <p>
+        <p className="font-noto">
             {text}
         </p>
     )
