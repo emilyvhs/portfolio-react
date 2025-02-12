@@ -4,7 +4,8 @@ export default function Nav() {
 
     return (
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center
+        md:flex-row md:gap-4 md:justify-center md:flex-wrap">
             <NavLinks link="/" linkText="home" />
             <NavLinks link="/portfolio" linkText="portfolio" />
             <NavLinks link="/about" linkText="about" />
