@@ -8,7 +8,7 @@ export default function HomePage() {
 
         <>
 
-            <section className="text-center p-20
+            <section className="text-center px-20 py-35
             bg-[#6b4f4f] text-[#e6e6e6]">
                 <div>
                     <H2 text="Hi! I'm Emily." />
@@ -18,7 +18,9 @@ export default function HomePage() {
             </section>    
             
             <section className="flex flex-col
-            bg-[#e6e6e6] text-[#3b2a2a] px-6 py-8 gap-8">
+            bg-[#e6e6e6] text-[#3b2a2a] 
+            px-6 py-8 gap-2">
+                <H2 text="Recent projects" />
                 <PortfolioSection />
             </section>
 
