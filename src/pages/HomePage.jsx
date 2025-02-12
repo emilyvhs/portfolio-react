@@ -21,7 +21,9 @@ export default function HomePage() {
             bg-[#e6e6e6] text-[#3b2a2a] 
             px-6 py-8 gap-2">
                 <H2 text="Recent projects" />
-                <PortfolioSection />
+                <div className="md:flex md:flex-wrap md:justify-evenly md:gap-6">
+                    <PortfolioSection />
+                </div>
             </section>
 
         </>

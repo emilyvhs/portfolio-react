@@ -8,7 +8,7 @@ export default function PortfolioBox({title, image, description, alt, link}){
     return (
         <div className="
         flex flex-col
-        p-4 gap-4 mb-4
+        p-6 gap-4 mb-4 max-w-lg
         shadow-[5px_5px_5px_5px_#a67c7c]
         hover:shadow-[7px_7px_7px_7px_#6B4F4F]     
         ">
