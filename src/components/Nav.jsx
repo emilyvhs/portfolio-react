@@ -6,7 +6,9 @@ export default function Nav() {
 
         <div className="flex flex-col items-center">
             <NavLinks link="/" linkText="home" />
+            <NavLinks link="/portfolio" linkText="portfolio" />
             <NavLinks link="/about" linkText="about" />
+            <NavLinks link="/contact" linkText="contact" />
         </div>
     )
 
