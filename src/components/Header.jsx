@@ -16,8 +16,11 @@ export default function Header() {
             <div>
                 <Nav />
             </div>
-            <div>
-                Socials
+            <div className="flex gap-4
+            md:justify-end">
+                <i class="fa-brands fa-bluesky"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
             </div>
         </div>
     )
