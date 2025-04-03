@@ -18,9 +18,9 @@ export default function Header() {
             </div>
             <div className="flex gap-4
             md:justify-end">
-                <i class="fa-brands fa-bluesky"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-github"></i>
+                <a href="https://bsky.app/profile/emilyvhs.bsky.social"><i class="fa-brands fa-bluesky"></i></a>
+                <a href="https://www.linkedin.com/in/emily-sherwood-3603b5277/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/emilyvhs"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
     )
