@@ -16,11 +16,11 @@ export default function Header() {
             <div>
                 <Nav />
             </div>
-            <div className="flex gap-4
+            <div className="flex gap-4 
             md:justify-end">
-                <a href="https://bsky.app/profile/emilyvhs.bsky.social"><i class="fa-brands fa-bluesky"></i></a>
-                <a href="https://www.linkedin.com/in/emily-sherwood-3603b5277/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/emilyvhs"><i class="fa-brands fa-github"></i></a>
+                <a href="https://bsky.app/profile/emilyvhs.bsky.social" className="hover:text-[#2f4f4f]"><i class="fa-brands fa-bluesky"></i></a>
+                <a href="https://www.linkedin.com/in/emily-sherwood-3603b5277/" className="hover:text-[#2f4f4f]"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/emilyvhs" className="hover:text-[#2f4f4f]"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
     )
